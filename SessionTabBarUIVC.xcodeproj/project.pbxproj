@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		181E252E2A01294800E4985A /* SessionTabBarUIVCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E252D2A01294800E4985A /* SessionTabBarUIVCApp.swift */; };
-		181E25302A01294800E4985A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E252F2A01294800E4985A /* ContentView.swift */; };
+		181E25302A01294800E4985A /* SessionTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E252F2A01294800E4985A /* SessionTabBarView.swift */; };
 		181E25322A01294A00E4985A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E25312A01294A00E4985A /* Assets.xcassets */; };
 		181E25352A01294A00E4985A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E25342A01294A00E4985A /* Preview Assets.xcassets */; };
+		181E253C2A0129ED00E4985A /* SessionTabBarUIVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E253B2A0129ED00E4985A /* SessionTabBarUIVM.swift */; };
+		181E253E2A012AE900E4985A /* SessionDocumentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E253D2A012AE900E4985A /* SessionDocumentVC.swift */; };
+		181E25402A012B0100E4985A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E253F2A012B0100E4985A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		181E252A2A01294800E4985A /* SessionTabBarUIVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SessionTabBarUIVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E252D2A01294800E4985A /* SessionTabBarUIVCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTabBarUIVCApp.swift; sourceTree = "<group>"; };
-		181E252F2A01294800E4985A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		181E252F2A01294800E4985A /* SessionTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTabBarView.swift; sourceTree = "<group>"; };
 		181E25312A01294A00E4985A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181E25342A01294A00E4985A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		181E253B2A0129ED00E4985A /* SessionTabBarUIVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTabBarUIVM.swift; sourceTree = "<group>"; };
+		181E253D2A012AE900E4985A /* SessionDocumentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDocumentVC.swift; sourceTree = "<group>"; };
+		181E253F2A012B0100E4985A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				181E252D2A01294800E4985A /* SessionTabBarUIVCApp.swift */,
-				181E252F2A01294800E4985A /* ContentView.swift */,
+				181E252F2A01294800E4985A /* SessionTabBarView.swift */,
+				181E253B2A0129ED00E4985A /* SessionTabBarUIVM.swift */,
+				181E253D2A012AE900E4985A /* SessionDocumentVC.swift */,
+				181E253F2A012B0100E4985A /* Main.storyboard */,
 				181E25312A01294A00E4985A /* Assets.xcassets */,
 				181E25332A01294A00E4985A /* Preview Content */,
 			);
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181E25402A012B0100E4985A /* Main.storyboard in Resources */,
 				181E25352A01294A00E4985A /* Preview Assets.xcassets in Resources */,
 				181E25322A01294A00E4985A /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181E25302A01294800E4985A /* ContentView.swift in Sources */,
+				181E25302A01294800E4985A /* SessionTabBarView.swift in Sources */,
+				181E253E2A012AE900E4985A /* SessionDocumentVC.swift in Sources */,
+				181E253C2A0129ED00E4985A /* SessionTabBarUIVM.swift in Sources */,
 				181E252E2A01294800E4985A /* SessionTabBarUIVCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
